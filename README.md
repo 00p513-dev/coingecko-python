@@ -12,3 +12,19 @@ Just to test if you can connect to the api. Index 0 contains a boolean. True for
 
 ### getCoinValue(crypto, fiat) - Find out how much one X is in Y
 For example getCoinValue(bitcoin, gbp) will tell you how much one Bitcoin is in GBP. Returns a float of the value
+
+### convertToFiat(crypto, fiat, amount) - Convert from crypto to fiat
+Examples:
+
+convertToCrypto(dogecoin, gbp, 50) - Will return how much 50 gbp is in dogecoin
+convertToCrypto(litecoin, usd, 1.5) - Will return how much 1.5 usd is in litecoin
+
+### convertToCrypto(crypto, fiat, amount) - Convert from fiat to crypto
+Examples:
+
+convertToCrypto(dogecoin, gbp, 50) - Will return how much 50 dogecoin is in gbp
+convertToCrypto(litecoin, usd, 1.5) - Will return how much 1.5 litecoin is in usd
+
+### supportedVsCurrencies() - Returns all supported currencies you can convert too
+
+### supportedVsCurrenciesPretty() - Same as supportedVsCurrencies() but with new lines OwO
