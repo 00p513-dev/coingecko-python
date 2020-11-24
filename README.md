@@ -1,4 +1,4 @@
-# coingeck-python
+# coingecko-python
 #### A shitty implementation of the coingecko API in python
 
 This project aims to:
