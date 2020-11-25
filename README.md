@@ -5,6 +5,9 @@ This project aims to:
 - Provide a simple way to access the CoinGecko API in python
 - Exist
 
+#### Find an example on repl.it!
+https://repl.it/@Hchedd/CoinGecko
+
 ## How to use
 
 ### connectionTest() - A wrapper for /ping
